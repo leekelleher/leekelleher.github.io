@@ -1,0 +1,36 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+	background: linear-gradient(#cccccc, #ff9966);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.outer {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.inner {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+ul {
+    list-style: none;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+li {
+    display: inline;
+}
