@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RSS Feed</title>
+    <script type="module" src="./rss-feed.element.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <template id="my-feed-item">
+      <slot></slot>
+    </template>
+    <rss-feed src="./feed.xml" template-id="my-feed-item"></rss-feed>
+  </body>
+</html>
