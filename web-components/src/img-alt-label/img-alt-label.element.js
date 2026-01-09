@@ -62,32 +62,32 @@ sheet.replaceSync(`
 `);
 
 class ImgAltLabelElement extends HTMLElement {
-  connectedCallback() {
-    const shadow = this.attachShadow({ mode: "open" });
-    shadow.adoptedStyleSheets = [sheet];
+	connectedCallback() {
+		const shadow = this.attachShadow({ mode: 'open' });
+		shadow.adoptedStyleSheets = [sheet];
 
-    const slot = document.createElement("slot");
-    shadow.appendChild(slot);
+		const slot = document.createElement('slot');
+		shadow.appendChild(slot);
 
-    const img = this.querySelector("img");
-    if (!img) return;
+		const img = this.querySelector('img');
+		if (!img) return;
 
-    const altText = img.getAttribute("alt");
-    if (!altText) return;
+		const altText = img.getAttribute('alt');
+		if (!altText) return;
 
-    const popover = document.createElement("div");
-    popover.role = "tooltip";
-    popover.popover = "auto";
-    popover.innerText = altText;
-    shadow.appendChild(popover);
+		const popover = document.createElement('div');
+		popover.role = 'tooltip';
+		popover.popover = 'auto';
+		popover.innerText = altText;
+		shadow.appendChild(popover);
 
-    const button = document.createElement("button");
-    button.type = "button";
-    button.innerText = "Alt";
-    button.setAttribute("aria-label", "Show image description");
-    button.popoverTargetElement = popover;
-    shadow.appendChild(button);
-  }
+		const button = document.createElement('button');
+		button.type = 'button';
+		button.innerText = 'Alt';
+		button.setAttribute('aria-label', 'Show image description');
+		button.popoverTargetElement = popover;
+		shadow.appendChild(button);
+	}
 }
 
-customElements.define("img-alt-label", ImgAltLabelElement);
+customElements.define('img-alt-label', ImgAltLabelElement);

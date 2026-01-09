@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Color Scheme Toggle</title>
-    <script type="module" src="./tri-state-toggle.element.js"></script>
-    <style></style>
-  </head>
-  <body>
-    <tri-state-toggle
-      hidden
-      id="color-scheme"
-      primary="light dark"
-      secondary="light"
-      tertiary="dark"
-    >
-      <span slot="primary">💻 System</span>
-      <span slot="secondary">☀️ Light</span>
-      <span slot="tertiary">🌙 Dark</span>
-    </tri-state-toggle>
+	<head>
+		<title>Color Scheme Toggle</title>
+		<script type="module" src="./tri-state-toggle.element.js"></script>
+		<style></style>
+	</head>
+	<body>
+		<tri-state-toggle hidden id="color-scheme" primary="light dark" secondary="light" tertiary="dark">
+			<span slot="primary">💻 System</span>
+			<span slot="secondary">☀️ Light</span>
+			<span slot="tertiary">🌙 Dark</span>
+		</tri-state-toggle>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const toggle = document.querySelector("#color-scheme");
-        if (toggle) {
-          const storageKey = `tri-state-toggle:${toggle.id}`;
-          const storedValue = localStorage.getItem(storageKey);
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				const toggle = document.querySelector('#color-scheme');
+				if (toggle) {
+					const storageKey = `tri-state-toggle:${toggle.id}`;
+					const storedValue = localStorage.getItem(storageKey);
 
-          if (storedValue) {
-            toggle.setAttribute("value", storedValue);
-          }
+					if (storedValue) {
+						toggle.setAttribute('value', storedValue);
+					}
 
-          document.documentElement.style.colorScheme = toggle.value;
+					document.documentElement.style.colorScheme = toggle.value;
 
-          toggle.addEventListener("change", (e) => {
-            document.documentElement.style.colorScheme = e.detail.value;
-            localStorage.setItem(storageKey, e.detail.value);
-          });
-        }
-      });
-    </script>
-  </body>
+					toggle.addEventListener('change', (e) => {
+						document.documentElement.style.colorScheme = e.detail.value;
+						localStorage.setItem(storageKey, e.detail.value);
+					});
+				}
+			});
+		</script>
+	</body>
 </html>
