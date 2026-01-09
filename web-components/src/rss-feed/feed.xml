@@ -1,4 +1,22 @@
-<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Lee Kelleher</title><link>https://leekelleher.com/</link><description>Latest blog posts by Lee Kelleher - Umbraco Consultant</description><language>en-GB</language><lastBuildDate>Fri, 08 Jan 2021 14:17:53 Z</lastBuildDate><generator>Wyam</generator><image><url>https://leekelleher.com/assets/img/northbynorthwest_300x300.jpg</url><title>Lee Kelleher</title><link>https://leekelleher.com/</link></image><a10:link rel="self" href="https://leekelleher.com/feed/"/><item><guid isPermaLink="true">https://leekelleher.com/2020/01/album-club</guid><link>https://leekelleher.com/2020/01/album-club</link><title>Album Club</title><description>&lt;figure&gt;
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Lee Kelleher</title>
+        <link>https://leekelleher.com/</link>
+        <description>Latest blog posts by Lee Kelleher - Umbraco Consultant</description>
+        <language>en-GB</language>
+        <lastBuildDate>Fri, 08 Jan 2021 14:17:53 Z</lastBuildDate>
+        <generator>Wyam</generator>
+        <image>
+            <url>https://leekelleher.com/assets/img/northbynorthwest_300x300.jpg</url>
+            <title>Lee Kelleher</title>
+            <link>https://leekelleher.com/</link>
+        </image>
+        <a10:link rel="self" href="https://leekelleher.com/feed/"/>
+        <item>
+            <guid isPermaLink="true">https://leekelleher.com/2020/01/album-club</guid>
+            <link>https://leekelleher.com/2020/01/album-club</link>
+            <title>Album Club</title>
+            <description>&lt;figure&gt;
     &lt;img src="/assets/media/album-club-rules.png" alt="The first rule of Album Club is..."&gt;
     &lt;figcaption&gt;The first rule of Album Club is...&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -150,7 +168,14 @@
 &lt;p&gt;I didn't push this naming convention, but interestingly I noticed other package developers had started to use it. It had become an unspoken guideline.&lt;/p&gt;
 &lt;p&gt;More recently, the packages that I've collaborated on with &lt;a href="https://twitter.com/mattbrailsford"&gt;Matt Brailsford&lt;/a&gt; have generally come from working together at my company &lt;strong&gt;Umbrella&lt;/strong&gt; (where Matt has freelanced with us). However, when we started coding and setting up namespaces, if we used &lt;strong&gt;"Umbrella.Umbraco.*"&lt;/strong&gt; it wouldn't feel quite right. We knew from the outset that certain back-office extensions had the potential to be released as fully-fledged Umbraco packages - we always start out with that mindset… &lt;strong&gt;"for the community"&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;So, if you ever look in your website's &lt;code&gt;/bin&lt;/code&gt; folder and see a bunch of "Our.Umbraco.*" assemblies, then you now know they were developed with the community in mind and are a sign of thoughtful, well-crafted Umbraco packages.&lt;/p&gt;
-</description><pubDate>Tue, 27 Nov 2018 10:50:00 Z</pubDate></item><item><guid isPermaLink="true">https://leekelleher.com/2018/08/fortyfest</guid><link>https://leekelleher.com/2018/08/fortyfest</link><title>FortyFest</title><description>&lt;p&gt;At last year's &lt;a href="https://codecab.in/"&gt;CodeCabin, (our Umbraco community developer retreat)&lt;/a&gt;, I was chatting with Lucy Brailsford and Lotte Pitcher about having just moved house, and I had access to a jointly-owned field at the back of the house. Very quickly the suggestion of having a "festival" in the field came up, and along with my unavoidable 40th birthday, someone muttered the words... &lt;strong&gt;FortyFest™&lt;/strong&gt;.&lt;br&gt;
+</description>
+<pubDate>Tue, 27 Nov 2018 10:50:00 Z</pubDate>
+</item>
+        <item>
+            <guid isPermaLink="true">https://leekelleher.com/2018/08/fortyfest</guid>
+            <link>https://leekelleher.com/2018/08/fortyfest</link>
+            <title>FortyFest</title>
+            <description>&lt;p&gt;At last year's &lt;a href="https://codecab.in/"&gt;CodeCabin, (our Umbraco community developer retreat)&lt;/a&gt;, I was chatting with Lucy Brailsford and Lotte Pitcher about having just moved house, and I had access to a jointly-owned field at the back of the house. Very quickly the suggestion of having a "festival" in the field came up, and along with my unavoidable 40th birthday, someone muttered the words... &lt;strong&gt;FortyFest™&lt;/strong&gt;.&lt;br&gt;
 &lt;em&gt;(I can't recall if it was Lucy or Lotte, but anyway, an idea was born.)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src="/assets/media/fortyfest-cow.jpg" alt="Photo of the FortyFest cow"&gt;&lt;/p&gt;
 &lt;p&gt;I didn't really think much more about it until after Christmas. Although 6 months felt like a long time away, I knew I wanted a giant tipi as the centerpiece of the festival, so I contacted Luke (of &lt;a href="http://tipievents.co.uk/"&gt;Tipi Events&lt;/a&gt;) to come do a recce of my field and book it in. Then it was case of aligning the other big tasks... food, drinks, live bands.&lt;/p&gt;
@@ -162,8 +187,14 @@
 &lt;p&gt;&lt;img src="/assets/media/fortyfest-tipi.jpg" alt="Photo of the FortyFest tipi"&gt;&lt;/p&gt;
 &lt;p&gt;In hindsight, I may have overcomitted myself in the music department. I was part of two bands, one 30 minute set with Paul Hagan, &lt;em&gt;(my old Tremor bandmate)&lt;/em&gt;, in our newly formed band / never rehearsed &lt;strong&gt;The Kecks&lt;/strong&gt;; and then an hour set with my covers band &lt;strong&gt;The Dysfunctions&lt;/strong&gt;!&lt;/p&gt;
 &lt;p&gt;Thank you everyone involved in making FortyFest happen! It was a great night!&lt;/p&gt;
-&lt;p&gt;Roll on &lt;strong&gt;Forty-First-Fest™&lt;/strong&gt; ;-)&lt;/p&gt;
-</description><pubDate>Mon, 06 Aug 2018 22:02:00 +0100</pubDate></item><item><guid isPermaLink="true">https://leekelleher.com/2018/01/umco</guid><link>https://leekelleher.com/2018/01/umco</link><title>UMCO</title><description>&lt;p&gt;I've been meaning to talk about UMCO for a while, but Matt got there before me... &lt;a href="https://outfield.digital/blog/what-exactly-is-umco/"&gt;What exactly is UMCO?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Roll on &lt;strong&gt;Forty-First-Fest™&lt;/strong&gt; ;-)&lt;/p&gt;</description>
+            <pubDate>Mon, 06 Aug 2018 22:02:00 +0100</pubDate>
+        </item>
+        <item>
+            <guid isPermaLink="true">https://leekelleher.com/2018/01/umco</guid>
+            <link>https://leekelleher.com/2018/01/umco</link>
+            <title>UMCO</title>
+            <description>&lt;p&gt;I've been meaning to talk about UMCO for a while, but Matt got there before me... &lt;a href="https://outfield.digital/blog/what-exactly-is-umco/"&gt;What exactly is UMCO?&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.flickr.com/photos/percipientstudios/18087735533/in/album-72157653985426100/" title="Lee and Matt hacking, Photo by Douglas Robar, Percipient Studios"&gt;&lt;img src="https://farm1.staticflickr.com/505/18087735533_6eaf4dfc3b_h.jpg" alt="CG15-1128"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;UMCO Links&lt;/h4&gt;
 &lt;ul&gt;
@@ -171,5 +202,8 @@
 &lt;li&gt;&lt;a href="https://github.com/UMCO"&gt;UMCO on GitHub - source-code for our Umbraco packages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;s&gt;&lt;a href="https://www.patreon.com/umco"&gt;UMCO Patreon page - if you'd like to support our work&lt;/a&gt;&lt;/s&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://weareumco.com/"&gt;We are UMCO - a landing page, with these links&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description><pubDate>Tue, 23 Jan 2018 12:38:00 Z</pubDate></item></channel></rss>
+&lt;/ul&gt;</description>
+            <pubDate>Tue, 23 Jan 2018 12:38:00 Z</pubDate>
+        </item>
+    </channel>
+</rss>

@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>RSS Feed</title>
-    <script type="module" src="./rss-feed.element.js"></script>
-    <style></style>
-  </head>
-  <body>
-    <template id="my-feed-item">
-      <slot></slot>
-    </template>
-    <rss-feed src="./feed.xml" template-id="my-feed-item"></rss-feed>
-  </body>
+	<head>
+		<title>RSS Feed</title>
+		<script type="module" src="./rss-feed.element.js"></script>
+		<style>
+			main {
+				display: flex;
+				flex-wrap: wrap;
+
+				article {
+					flex: 1;
+					min-width: 30%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<template id="my-feed-item">
+			<div>
+				<a data-bind="title" href="" target="_blank"></a><br />
+				<time data-bind="pubDate" datetime></time><br />
+				<code data-bind="guid"></code><br />
+				<p data-bind="description"></p>
+			</div>
+		</template>
+
+		<main>
+			<article>
+				<h2>RSS Feed (default template)</h2>
+				<rss-feed src="./feed.xml" limit="3"></rss-feed>
+			</article>
+
+			<article>
+				<h2>RSS Feed (custom template)</h2>
+				<rss-feed src="./feed.xml" template-id="my-feed-item" limit="3"></rss-feed>
+			</article>
+
+			<article>
+				<h2>RSS Feed (inline template)</h2>
+				<rss-feed src="./feed.xml" limit="3">
+					<template>
+						<li>
+							<a data-bind="title" href="" target="_blank"></a><br />
+							<time data-bind="pubDate" datetime></time><br />
+							<code data-bind="guid"></code><br />
+							<p data-bind="description"></p>
+						</li>
+					</template>
+				</rss-feed>
+			</article>
+		</main>
+	</body>
 </html>
